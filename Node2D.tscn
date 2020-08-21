@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Node2D.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="EdgeRight" type="Polygon2D" parent="."]
+color = Color( 0.337255, 0.117647, 0.117647, 1 )
+polygon = PoolVector2Array( 477.14, -2.57426, 385.382, -2.57426, 384.552, 375.667, 503.297, 378.158 )
+
+[node name="EdgeTop" type="Polygon2D" parent="."]
+polygon = PoolVector2Array( 57.3306, 39.708, 57.7458, 163.851, 538.539, 163.436, 533.972, 55.4853, 62.313, 39.708 )
+
+[node name="EdgeBottom" type="Polygon2D" parent="."]
+color = Color( 0.282353, 0.231373, 0.501961, 1 )
+polygon = PoolVector2Array( 173.917, 332.253, 166.443, 446.846, 702.042, 438.542, 688.341, 335.159 )
+
+[node name="EdgeLeft" type="Polygon2D" parent="."]
+position = Vector2( -0.422516, 0.422508 )
+color = Color( 0.427451, 0.67451, 0.639216, 1 )
+polygon = PoolVector2Array( 176.823, 54.0736, 170.18, 446.016, 263.599, 445.185, 267.335, 57.3952 )
+
+[node name="MergedPolygon" type="Polygon2D" parent="."]
+position = Vector2( 0.422516, 0 )
+color = Color( 0.917647, 0.576471, 0.0196078, 1 )
